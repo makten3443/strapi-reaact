@@ -38,12 +38,13 @@ async componentDidMount (){
 
 render() {
     return(
-          <div className={"allCards"}>
+          <div>
 
                 {this.state.products.map((product) =>
                      
                       <Card 
                       key={product.id}
+                      docId={product.id}
                       title={product.title} 
                       price={product.price}
                       description= {product.description}
