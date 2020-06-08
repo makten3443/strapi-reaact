@@ -9,8 +9,8 @@ import Navbar from "./Navbar"
 import Form from "./Form";
 import Notfoundpage from "./Notfoundpage";
 import App from "./App";
-import Adminform from "./Adminform";
-import AdminLogin from "./Auth/AdminLogin"
+//import Adminform from "./Adminform";
+//import AdminLogin from "./Auth/AdminLogin"
 import AdminSida from "./AdminSida";
 import FirebaseTest from "./FirebaseTest";
 import UserPage from "./AuthUser/UserPage";
